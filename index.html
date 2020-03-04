@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--boostrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--fontaswome-->
+    <link rel="stylesheet" href="css/all.min.css">
+   <!--coustome css-->
+   <link rel="stylesheet" href="css/coustom.css">
+
+    <title>OSMS</title>
+</head>
+<body>
+    <!--start navigation-->
+     <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
+     <a href="index.php" class="navbar-brand">OSMS</a>
+     <span class="navbar-text">customer's Happiness is our aim</span>
+     <button type="button" class="navbar-toggler" data-toggle="collapse"
+    data-target="#mymenu">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+       <div class="collapse navbar-collapse" id="mymenu">
+       <ul class="navbar-nav pl-5">
+       <li class="nav-item">
+       <a href="" class="nav-link text-white">home</a>
+       </li>
+       <li class="nav-item">
+       <a href="#services" class="nav-link text-white">services</a>
+       </li>
+       <li class="nav-item">
+       <a href="#registration" class="nav-link text-white">Registration</a>
+       </li>
+       <li class="nav-item">
+       <a href="RESQUEST/loginform.php" class="nav-link text-white">login</a>
+       </li>
+       <li class="nav-item">
+       <a href="#contact" class="nav-link text-white">contact</a>
+       </li>
+       </ul>
+       </div>
+     </nav>  
+    <!--end navigation-->
+   <!--start header jumbotron-->
+     <header class="jumbotron back-image" style="background-image:url('IMAGES/img.jpg');">
+       <div class="myclass">
+       <h1 class="text-uppper text-white font-weight-bold">welcome to OSMS</h1>
+       <P class="font-italic text-white">customer Happiness is our aim</P>
+       <a href="#" class="btn btn-success mr-4">Login</a>
+       <a href="#" class="btn btn-danger mr-4">Sign Up</a>
+       
+       </div>
+     </header>
+       
+   
+   <!--end -->
+
+   <!--stat introduction ssection-->
+    <div class="container">
+      <div class="jumbotron">
+        <h3 class="text-center">OSMS SERVICES</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti, repellendus quae maiores dolore corrupti nihil eligendi voluptas, ipsum fugit nam ipsam. Autem molestias obcaecati commodi officiis eos excepturi qui iusto minima atque molestiae ratione quos odit sapiente, eum beatae nam adipisci perferendis! Et quam vitae commodi asperiores sunt nemo.</p>
+      </div>
+    </div><!--end contianer-->
+    <!--end introduction-->
+
+    <!--start services -->
+      <div class="container text-center border-bottom">
+       <h2>our  servics</h2>
+       <div class="row mt-4 mb-4">
+         <div class="col-sm-4">
+           <a href=""><i class="fas fas-tv"></i></a>
+           <h4 class="mt-4">exlectronic aappliances</h4>
+         </div>
+
+         <div class="col-sm-4">
+          <a href=""><i class="fas fas-tv"></i></a>
+          <h4 class="mt-4">preventive maintences</h4>
+        </div>
+
+        <div class="col-sm-4">
+          <a href=""><i class="fas fas-tv"></i></a>
+          <h4 class="mt-4">reparie</h4>
+        </div>
+       </div>
+      </div>
+    <!--edn serices-->
+    <!--start registation-->
+     <?php
+	   include('userRegistration.php');
+	?>
+    <!--end registartion-->
+ <!--start happy customer-->
+   <div class="jumbotron bg-danger">
+     <div class="container">
+      <h2 class="text-center text-white">happy customer</h2>  
+      <div class="row mt-5">
+        <div class="col-lg-4 col-sm-6 ">
+       <div class="card shadow-lg mb-2">
+         <div class="card-body text-center">
+           <img src="img/" class="img-fluid" style="border-radius: 100px;">
+           <h4 class="card-title"> rahul kumuar</h4>
+           <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel consequuntur aliquid odio repudiandae asperiores? Tempora impedit voluptate temporibus quas maxime!
+           </p>
+
+         </div>
+       </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 ">
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="img/" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title"> rahul kumuar</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel consequuntur aliquid odio repudiandae asperiores? Tempora impedit voluptate temporibus quas maxime!
+              </p>
+   
+            </div>
+          </div>
+           </div>
+
+           <div class="col-lg-4 col-sm-6 ">
+            <div class="card shadow-lg mb-2">
+              <div class="card-body text-center">
+                <img src="img/" class="img-fluid" style="border-radius: 100px;">
+                <h4 class="card-title"> rahul kumuar</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel consequuntur aliquid odio repudiandae asperiores? Tempora impedit voluptate temporibus quas maxime!
+                </p>
+     
+              </div>
+            </div>
+             </div>
+      </div>
+     </div>
+
+   </div>
+ <!--end happy customer-->
+
+  <!--contact us-->
+  <div class="container">
+    <h2 class="text-center mb-4">contact us</h2>
+    <div class="row">
+       <!--start column-->
+        <?php
+			  include('contactform.php');
+			
+			?>
+			<!--start column-->
+    
+      <div class="col-md-4 text-center">
+        <strong>headerqueter</strong><br>
+        omsv pvt ltd<br>
+        shambhunagar ,maharashtra 
+      </div>
+    
+    </div>
+  </div>
+<br>
+  <footer class="container-fluid bg-dark">
+    <div class="container py-3">
+    
+    </div>
+  </footer>
+  <!--start contact us-->
+
+    <!--javascript-->
+    <script src="js/jquery-.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>

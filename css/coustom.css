@@ -1,0 +1,22 @@
+.back-image
+{
+    background-image: url('IMAGES/img.jpg');
+}
+/*make haeder image responsive*/
+.back-image
+{
+    background-size: cover;
+    min-height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+}
+/*mediq query*/
+ @media only screen  and (max-width:600px)
+ {
+.myclass
+{
+    margin-top: 150px;
+    text-align: center;
+}
+}
